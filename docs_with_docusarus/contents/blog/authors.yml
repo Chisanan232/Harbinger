@@ -1,0 +1,9 @@
+your_github_name:
+  name: <your GitHub name>
+  title: This project Maintainer
+  url: https://github.com/<your GitHub name>
+  image_url: https://github.com/<your GitHub name>.png
+  page: true
+  socials:
+    github: <your GitHub name>
+    linkedin: <your LinkedIn name>
