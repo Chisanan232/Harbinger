@@ -49,10 +49,9 @@ repos:
     rev: v1.16.0
     hooks:
       - id: mypy
-        package: src,test
-  #      exclude: ^test/unit_test.{1,64}.py
+        package: harbinger,test
         args:
-  #        - --strict
+          - --strict
           - --ignore-missing-imports
           - --show-traceback
         additional_dependencies: [types-PyYAML>=6.0.12.9]

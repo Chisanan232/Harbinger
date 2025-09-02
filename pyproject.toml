@@ -3,14 +3,20 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "<your lib name>"
+name = "harbinger"
 version = "0.0.0"
-description = "Your lib description"
-authors = [{ name = "<your GitHub name>", email = "<your email address>" }]
-requires-python = ">=3.12,<4.0"
+description = "🧙🏻‍♂️ An AI agent to warn you the breaking changes caused by the API specification changes"
+authors = [{ name = "Chisanan232", email = "chi10211201@cycu.org.tw" }]
+requires-python = ">=3.13,<4.0"
 readme = "README.md"
-license = { text = "MIT" }
-keywords = []
+license = { file = "LICENSE" }
+keywords = [
+    "ai",
+    "ai agents",
+    "ai-assistents",
+    "API spec checking",
+    "API client helper",
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -19,15 +25,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
 ]
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/<your GitHub name>/<new repo>"
-Repository = "https://github.com/<your GitHub name>/<new repo>"
+Homepage = "https://github.com/Chisanan232/Harbinger"
+Repository = "https://github.com/Chisanan232/Harbinger"
 
 [dependency-groups]
 dev = [
@@ -52,7 +57,7 @@ default-groups = [
 ]
 
 [tool.hatch.build.targets.sdist]
-include = ["src/"]
+include = ["harbinger/"]
 
 [tool.hatch.build.targets.wheel]
-include = ["src/"]
+include = ["harbinger/"]
