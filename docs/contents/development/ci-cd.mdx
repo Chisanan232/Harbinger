@@ -12,12 +12,12 @@ This document describes the Continuous Integration and Continuous Deployment (CI
 
 We use GitHub Actions to automate testing, code quality checks, and deployment processes. Our CI/CD pipelines help maintain code quality, ensure tests pass, and streamline the release process.
 
-You can monitor the status of all workflows at: [GitHub Actions Dashboard](https://github.com/<GitHub username>/<GitHub repo>/actions)
+You can monitor the status of all workflows at: [GitHub Actions Dashboard](https://github.com/Chisanan232/Harbinger/actions)
 
 ## Continuous Integration
 
-[![CI](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/ci.yaml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/ci.yaml)
-[![CI + E2E](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/ci_includes_e2e_test.yaml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/ci_includes_e2e_test.yaml)
+[![CI](https://github.com/Chisanan232/Harbinger/actions/workflows/ci.yaml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/ci.yaml)
+[![CI + E2E](https://github.com/Chisanan232/Harbinger/actions/workflows/ci_includes_e2e_test.yaml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/ci_includes_e2e_test.yaml)
 
 ### Workflow Triggers
 
@@ -79,9 +79,9 @@ The project uses a dedicated workflow (`rw_uv_run_test_with_multi_py_versions.ya
 
 The project uses a comprehensive release deployment system with three main workflows:
 
-[![Release](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release.yml)
-[![Release Validation](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release-validate.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release-validate.yml)
-[![Release Staging](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release-staging.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release-staging.yml)
+[![Release](https://github.com/Chisanan232/Harbinger/actions/workflows/release.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/release.yml)
+[![Release Validation](https://github.com/Chisanan232/Harbinger/actions/workflows/release-validate.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/release-validate.yml)
+[![Release Staging](https://github.com/Chisanan232/Harbinger/actions/workflows/release-staging.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/release-staging.yml)
 
 ### Release System Overview
 
@@ -446,8 +446,8 @@ gh workflow run release-staging.yml
 #### Monitoring Releases
 
 **Release Status:**
-- Monitor [Release Workflow](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release.yml)
-- Check [Validation Results](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/release-validate.yml)
+- Monitor [Release Workflow](https://github.com/Chisanan232/Harbinger/actions/workflows/release.yml)
+- Check [Validation Results](https://github.com/Chisanan232/Harbinger/actions/workflows/release-validate.yml)
 
 **Security Reports:**
 - Review vulnerability scan results in workflow summaries
@@ -464,13 +464,13 @@ gh workflow run release-staging.yml
 The following describes the legacy CD system (`cd.yaml`) which is maintained for backward compatibility but superseded by the release system above.
 :::
 
-[![CD](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/cd.yaml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/cd.yaml)
+[![CD](https://github.com/Chisanan232/Harbinger/actions/workflows/cd.yaml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/cd.yaml)
 
 The legacy CD workflow is triggered by changes to `__pkg_info__.py` files and includes basic version checking, Git tagging, PyPI publication, and Docker Hub publishing.
 
 ## Documentation Deployment
 
-[![documentation](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/documentation.yaml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/documentation.yaml)
+[![documentation](https://github.com/Chisanan232/Harbinger/actions/workflows/documentation.yaml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/documentation.yaml)
 
 The documentation workflow (`documentation.yaml`) handles building and deploying project documentation:
 
@@ -502,25 +502,25 @@ The project includes several specialized CI workflows:
 
 ### API Specification Checking
 
-[![Check ClickUp API Specification Changes](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/check-clickup-api-spec.yaml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/check-clickup-api-spec.yaml)
+[![Check ClickUp API Specification Changes](https://github.com/Chisanan232/Harbinger/actions/workflows/check-clickup-api-spec.yaml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/check-clickup-api-spec.yaml)
 
 The `check-clickup-api-spec.yaml` workflow verifies the ClickUp API specification against the implementation.
 
 ### Docker CI
 
-[![docker-ci](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/docker-ci.yml)
+[![docker-ci](https://github.com/Chisanan232/Harbinger/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/docker-ci.yml)
 
 The `docker-ci.yml` workflow tests Docker image building and functionality.
 
 ### DockerHub README CI
 
-[![dockerhub-readme-ci](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/dockerhub-readme-ci.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/dockerhub-readme-ci.yml)
+[![dockerhub-readme-ci](https://github.com/Chisanan232/Harbinger/actions/workflows/dockerhub-readme-ci.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/dockerhub-readme-ci.yml)
 
 The `dockerhub-readme-ci.yml` workflow updates the Docker Hub repository description.
 
 ### Documentation Auto-Approve & Auto-Merge
 
-[![docs-automerge](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/docs-automerge.yml/badge.svg)](https://github.com/<GitHub username>/<GitHub repo>/actions/workflows/docs-automerge.yml)
+[![docs-automerge](https://github.com/Chisanan232/Harbinger/actions/workflows/docs-automerge.yml/badge.svg)](https://github.com/Chisanan232/Harbinger/actions/workflows/docs-automerge.yml)
 
 The `docs-automerge.yml` workflow automatically approves and merges pull requests that only contain documentation changes. This streamlines the process for documentation updates by:
 
@@ -552,7 +552,7 @@ All CI/CD workflows are defined in the `.github/workflows/` directory:
 - Additional specialized workflows for Docker, API checking, etc.
 
 You can browse all workflow definitions here:
-- [Workflow Definitions](https://github.com/<GitHub username>/<GitHub repo>/tree/master/.github/workflows)
+- [Workflow Definitions](https://github.com/Chisanan232/Harbinger/tree/master/.github/workflows)
 
 ## Best Practices for Contributors
 

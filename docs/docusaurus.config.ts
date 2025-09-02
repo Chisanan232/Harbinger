@@ -5,16 +5,16 @@ import remarkGfm from 'remark-gfm';
 import remarkMdxCodeMeta from 'remark-mdx-code-meta';
 
 const config: Config = {
-  title: 'UV-Template',
-  tagline: '👋 Just a template for Python uv project.',
-  favicon: 'img/python_logo_icon.png',
+  title: 'Harbinger',
+  tagline: '🧙🏻‍♂️ An AI agent to warn you the breaking changes caused by the API specification changes',
+  favicon: 'img/harbinger_logo.png',
 
   // Set the production url of your site here
-  url: 'https://<your GitHub username>.github.io',
+  url: 'https://chisanan232.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/uv-template/',
-  projectName: '<your GitHub username>.github.io',
-  organizationName: '<your GitHub username>',
+  baseUrl: '/harbinger/',
+  projectName: 'chisanan232.github.io',
+  organizationName: 'chisanan232',
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -64,7 +64,7 @@ const config: Config = {
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
         editUrl:
-          'https://github.com/<your GitHub username>/<your GitHub repo>/tree/master/docs/',
+          'https://github.com/Chisanan232/Harbinger/tree/master/docs/',
         versions: {
           current: {
             label: 'Next',
@@ -88,7 +88,7 @@ const config: Config = {
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
         editUrl:
-          'https://github.com/<your GitHub username>/<your GitHub repo>/tree/master/docs/',
+          'https://github.com/Chisanan232/Harbinger/tree/master/docs/',
         versions: {
           current: {
             label: 'Next',
@@ -109,7 +109,7 @@ const config: Config = {
         routeBasePath: 'blog',
         showReadingTime: true,
         editUrl:
-          'https://github.com/<your GitHub username>/<your GitHub repo>/tree/master/docs/',
+          'https://github.com/Chisanan232/Harbinger/tree/master/docs/',
       },
     ],
     [
@@ -118,7 +118,7 @@ const config: Config = {
         // Options for docusaurus-search-local
         hashed: true,
         language: ['en'],
-        docsRouteBasePath: ['/uv-template'],
+        docsRouteBasePath: ['/harbinger'],
         docsDir: ['./contents/document', './contents/development'],
         blogDir: ['./contents/blog'],
         highlightSearchTermsOnTargetPage: true,
@@ -137,12 +137,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/clickup_mcp_server_logo.png',
+    image: 'img/harbinger_logo.png',
     navbar: {
-      title: 'UV-Template',
+      title: 'Harbinger',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/clickup_mcp_server_logo.png',
+        src: 'img/harbinger_logo.png',
       },
       items: [
         {
@@ -180,7 +180,7 @@ const config: Config = {
           dropdownItemsAfter: [],
         },
         {
-          href: 'https://github.com/<your GitHub username>/<your GitHub repo>',
+          href: 'https://github.com/Chisanan232/Harbinger',
           label: 'GitHub',
           position: 'right',
         },
@@ -211,11 +211,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Issues',
-              href: 'https://github.com/<your GitHub username>/<your GitHub repo>/issues',
+              href: 'https://github.com/Chisanan232/Harbinger/issues',
             },
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/<your GitHub username>/<your GitHub repo>/discussions',
+              href: 'https://github.com/Chisanan232/Harbinger/discussions',
             },
           ],
         },
@@ -224,12 +224,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/<your GitHub username>/<your GitHub repo>',
+              href: 'https://github.com/Chisanan232/Harbinger',
             },
           ],
         },
       ],
-      copyright: `Copyright ${new Date().getFullYear()} - PRESENT, ClickUp MCP Server is owned by <a href="https://github.com/your GitHub username">@Your_GitHub_username</a>.<br />Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
+      copyright: `Copyright ${new Date().getFullYear()} - PRESENT, ClickUp MCP Server is owned by <a href="https://github.com/Chisanan232">Chisanan232</a>.<br />Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -245,7 +245,7 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'canonical',
-        href: 'https://<your GitHub username>.github.io/<your GitHub repo>/docs/introduction',
+        href: 'https://chisanan232.github.io/harbinger/docs/introduction',
       },
     },
   ],

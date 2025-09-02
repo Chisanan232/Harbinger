@@ -22,23 +22,6 @@ const sidebars: SidebarsConfig = {
       label: '🧑‍💻 API References',
       items: [
         'api-references/api-references',
-        {
-          type: 'category',
-          label: 'Web APIs',
-          items: [
-            'api-references/web-apis/web-apis',
-            'api-references/web-apis/web-api-health-check',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'MCP Server APIs',
-          items: [
-            'api-references/mcp-apis/mcp-apis',
-            'api-references/mcp-apis/team-mcp-api',
-            'api-references/mcp-apis/space-mcp-api',
-          ],
-        },
       ],
     },
     {

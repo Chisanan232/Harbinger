@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    image: require('@site/static/img/easy_to_use.png').default,
+    image: require('@site/static/img/harbinger_would_positively_checking.png').default,
     description: (
       <>
         UV-Template is very easy to use. Just import and everything is ready to go.
@@ -21,7 +21,17 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Base on Python',
-    image: require('@site/static/img/python_base.png').default,
+    image: require('@site/static/img/harbinger_would_positively_fixing_and_opening_pr.png').default,
+    description: (
+      <>
+        Built with Python for excellent readability and maintainability.
+        Leverage Python's extensive ecosystem and simplicity for your project automation needs.
+      </>
+    ),
+  },
+  {
+    title: 'Base on Python',
+    image: require('@site/static/img/harbinger_base_on_python.png').default,
     description: (
       <>
         Built with Python for excellent readability and maintainability.
