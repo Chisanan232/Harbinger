@@ -3,7 +3,7 @@ name: dockerhub-readme-ci
 on:
   push:
     branches:
-      - "your_base_branch"
+      - "master"
     paths:
 #     For GitHub Action
       - ".github/workflows/docker-update-readme.yml"

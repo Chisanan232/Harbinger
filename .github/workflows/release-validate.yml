@@ -3,7 +3,7 @@ name: Release Validation (Dry Run)
 on:
   pull_request:
     branches:
-      - your_base_branch
+      - master
     paths:
       - .github/tag_and_release/**
       - pyproject.toml

@@ -4,7 +4,7 @@ on:
   push:
     branches:
 #      - "develop/**"    # For development and testing
-      - "your_base_branch"
+      - "master"
     paths:
 #     Documentation
 #     Doc - CI workflow

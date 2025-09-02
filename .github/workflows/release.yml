@@ -4,7 +4,7 @@ name: release
 on:
   push:
     branches:
-      - your_base_branch
+      - master
     paths:
       - .github/tag_and_release/release-**
   workflow_dispatch:
