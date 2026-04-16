@@ -68,6 +68,7 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: unit-test
+      source_folder: harbinger
 
   integration-test_codecov:
 #    name: For unit test, organize and generate the testing report and upload it to Codecov
@@ -79,6 +80,7 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: integration-test
+      source_folder: harbinger
 
   e2e-test_codecov:
 #    name: For end-to-end test, organize and generate the testing report and upload it to Codecov
@@ -90,6 +92,7 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: e2e-test
+      source_folder: harbinger
 
   contract-test_codecov:
 #    name: For end-to-end test, organize and generate the testing report and upload it to Codecov
@@ -101,6 +104,7 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: contract-test
+      source_folder: harbinger
 
   all_test_not_e2e_test_codecov:
 #    name: Organize and generate the testing report and upload it to Codecov
@@ -116,6 +120,7 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: all-test
+      source_folder: harbinger
 
   all_test_include_e2e_test_codecov:
 #    name: Organize and generate the testing report and upload it to Codecov
@@ -131,3 +136,4 @@ jobs:
     uses: ./.github/workflows/rw_organize_test_cov_reports.yaml
     with:
       test_type: all-test
+      source_folder: harbinger
